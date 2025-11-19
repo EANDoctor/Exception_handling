@@ -2,4 +2,4 @@ try:
     x = int(input("kérek egy számot: "))
     print(f"A szám négyzete: {x * x}")
 except ValueError:
-    print("Hiba: Nem számot adtál meg!")
+    print("Nem számot adtál meg!")
